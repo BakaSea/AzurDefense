@@ -1,0 +1,151 @@
+{
+    "row": 6,
+    "column": 10,
+    "energy": 30,
+    "hp": 10,
+    "seaType": "Easy",
+    "map": [
+        "##########",
+        "####.$.###",
+        "s....#..&e",
+        "###.###..#",
+        "s....$..&e",
+        "##########"
+    ],
+    "route": [
+        [
+            { "x": 2, "y": 0 },
+            { "x": 2, "y": 1 },
+            { "x": 2, "y": 2 },
+            { "x": 2, "y": 3 },
+            { "x": 2, "y": 4 },
+            { "x": 1, "y": 4 },
+            { "x": 1, "y": 5 },
+            { "x": 1, "y": 6 },
+            { "x": 2, "y": 6 },
+            { "x": 2, "y": 7 },
+            { "x": 2, "y": 8 },
+            { "x": 2, "y": 9 }
+        ],
+        [
+            { "x": 2, "y": 0 },
+            { "x": 2, "y": 1 },
+            { "x": 2, "y": 2 },
+            { "x": 2, "y": 3 },
+            { "x": 3, "y": 3 },
+            { "x": 4, "y": 3 },
+            { "x": 4, "y": 4 },
+            { "x": 4, "y": 5 },
+            { "x": 4, "y": 6 },
+            { "x": 4, "y": 7 },
+            { "x": 4, "y": 8 },
+            { "x": 4, "y": 9 }
+        ],
+        [
+            { "x": 4, "y": 0 },
+            { "x": 4, "y": 1 },
+            { "x": 4, "y": 2 },
+            { "x": 4, "y": 3 },
+            { "x": 4, "y": 4 },
+            { "x": 4, "y": 5 },
+            { "x": 4, "y": 6 },
+            { "x": 4, "y": 7 },
+            { "x": 4, "y": 8 },
+            { "x": 4, "y": 9 }
+        ],
+        [
+            { "x": 4, "y": 0 },
+            { "x": 4, "y": 1 },
+            { "x": 4, "y": 2 },
+            { "x": 4, "y": 3 },
+            { "x": 4, "y": 4 },
+            { "x": 4, "y": 5 },
+            { "x": 4, "y": 6 },
+            { "x": 4, "y": 7 },
+            { "x": 3, "y": 7 },
+            { "x": 2, "y": 7 },
+            { "x": 2, "y": 8 },
+            { "x": 2, "y": 9 }
+        ]
+    ],
+    "enemy": [
+        {
+            "name": "Scavenger",
+            "route": 0,
+            "time": 0
+        },
+        {
+            "name": "EShipRepair",
+            "route": 0,
+            "time": 1
+        },
+        {
+            "name": "Smasher",
+            "route": 3,
+            "time": 0
+        },
+        {
+            "name": "Scavenger",
+            "route": 1,
+            "time": 10
+        },
+        {
+            "name": "Scavenger",
+            "route": 2,
+            "time": 10
+        },
+        {
+            "name": "Scavenger",
+            "route": 0,
+            "time": 15
+        },
+        {
+            "name": "Scavenger",
+            "route": 1,
+            "time": 18
+        },
+        {
+            "name": "Smasher",
+            "route": 0,
+            "time": 9
+        },
+        {
+            "name": "Smasher",
+            "route": 1,
+            "time": 9
+        },
+        {
+            "name": "Smasher",
+            "route": 2,
+            "time": 9
+        },
+        {
+            "name": "Purifier",
+            "route": 2,
+            "time": 30
+        }
+    ],
+    "aircraft": [
+        {
+            "name": "AircraftFighter",
+            "time": 0,
+            "atk": 100,
+            "airDef": 100,
+            "hp": 200,
+            "bellicose": false,
+            "location": [2, 0],
+            "front": [0, 1]
+        },
+        {
+            "name": "AircraftFighter",
+            "time": 0,
+            "atk": 100,
+            "airDef": 100,
+            "hp": 200,
+            "bellicose": true,
+            "location": [4, 0],
+            "front": [0, 1]
+        }
+    ],
+    "reward": "Cheshire"
+}

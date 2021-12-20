@@ -1,0 +1,228 @@
+{
+    "row": 5,
+    "column": 9,
+    "energy": 80,
+    "hp": 15,
+    "seaType": "Hard",
+    "map": [
+        "#####...s",
+        "###.....#",
+        "e$$.....s",
+        "###.....#",
+        "#####...s"
+    ],
+    "route": [
+        [
+            { "x": 0, "y": 8 },
+            { "x": 0, "y": 7 },
+            { "x": 0, "y": 6 },
+            { "x": 0, "y": 5 },
+            { "x": 1, "y": 5 },
+            { "x": 1, "y": 4 },
+            { "x": 1, "y": 3 },
+            { "x": 2, "y": 3 },
+            { "x": 2, "y": 2 },
+            { "x": 2, "y": 1 },
+            { "x": 2, "y": 0 }
+        ],
+        [
+            { "x": 2, "y": 8 },
+            { "x": 2, "y": 7 },
+            { "x": 2, "y": 6 },
+            { "x": 2, "y": 5 },
+            { "x": 2, "y": 4 },
+            { "x": 2, "y": 3 },
+            { "x": 2, "y": 2 },
+            { "x": 2, "y": 1 },
+            { "x": 2, "y": 0 }
+        ],
+        [
+            { "x": 4, "y": 8 },
+            { "x": 4, "y": 7 },
+            { "x": 4, "y": 6 },
+            { "x": 4, "y": 5 },
+            { "x": 3, "y": 5 },
+            { "x": 3, "y": 4 },
+            { "x": 3, "y": 3 },
+            { "x": 2, "y": 3 },
+            { "x": 2, "y": 2 },
+            { "x": 2, "y": 1 },
+            { "x": 2, "y": 0 }
+        ]
+    ],
+    "enemy": [
+        {
+            "name": "Scavenger",
+            "route": 0,
+            "time": 5
+        },
+        {
+            "name": "Scavenger",
+            "route": 0,
+            "time": 10
+        },
+        {
+            "name": "Scavenger",
+            "route": 0,
+            "time": 15
+        },
+        {
+            "name": "Scavenger",
+            "route": 0,
+            "time": 20
+        },
+        {
+            "name": "Scavenger",
+            "route": 0,
+            "time": 25
+        },
+        {
+            "name": "Scavenger",
+            "route": 0,
+            "time": 30
+        },
+        {
+            "name": "Scavenger",
+            "route": 0,
+            "time": 35
+        },
+        {
+            "name": "Scavenger",
+            "route": 0,
+            "time": 40
+        },
+        {
+            "name": "Scavenger",
+            "route": 0,
+            "time": 45
+        },
+        {
+            "name": "Scavenger",
+            "route": 0,
+            "time": 50
+        },
+        {
+            "name": "Scavenger",
+            "route": 2,
+            "time": 5
+        },
+        {
+            "name": "Scavenger",
+            "route": 2,
+            "time": 10
+        },
+        {
+            "name": "Scavenger",
+            "route": 2,
+            "time": 15
+        },
+        {
+            "name": "Scavenger",
+            "route": 2,
+            "time": 20
+        },
+        {
+            "name": "Scavenger",
+            "route": 2,
+            "time": 25
+        },
+        {
+            "name": "Scavenger",
+            "route": 2,
+            "time": 30
+        },
+        {
+            "name": "Scavenger",
+            "route": 2,
+            "time": 35
+        },
+        {
+            "name": "Scavenger",
+            "route": 2,
+            "time": 40
+        },
+        {
+            "name": "Scavenger",
+            "route": 2,
+            "time": 45
+        },
+        {
+            "name": "Scavenger",
+            "route": 2,
+            "time": 50
+        },
+        {
+            "name": "Lurker",
+            "route": 1,
+            "time": 10
+        },
+        {
+            "name": "EShipRepair",
+            "route": 1,
+            "time": 25
+        },
+        {
+            "name": "Chaser",
+            "route": 1,
+            "time": 30
+        },
+        {
+            "name": "EShipRepair",
+            "route": 1,
+            "time": 35
+        },
+        {
+            "name": "Navigator",
+            "route": 1,
+            "time": 40
+        },
+        {
+            "name": "EShipRepair",
+            "route": 1,
+            "time": 45
+        },
+        {
+            "name": "Smasher",
+            "route": 1,
+            "time": 50
+        },
+        {
+            "name": "Conductor",
+            "route": 1,
+            "time": 60
+        }
+    ],
+    "aircraft": [
+        {
+            "name": "AircraftTorpedo",
+            "time": 10,
+            "atk": 500,
+            "airDef": 0,
+            "hp": 1000,
+            "bellicose": false,
+            "location": [2, 8],
+            "front": [0, -1]
+        },
+        {
+            "name": "AircraftBomber",
+            "time": 15,
+            "atk": 500,
+            "airDef": 0,
+            "hp": 1000,
+            "bellicose": false,
+            "location": [2, 8],
+            "front": [0, -1]
+        },
+        {
+            "name": "AircraftTorpedo",
+            "time": 20,
+            "atk": 500,
+            "airDef": 0,
+            "hp": 1000,
+            "bellicose": false,
+            "location": [2, 8],
+            "front": [0, -1]
+        }
+    ],
+    "reward": "NewJersey"
+}

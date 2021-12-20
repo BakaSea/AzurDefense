@@ -1,0 +1,741 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\GameObject">
+      <UniqueIdentifier>{3be629c9-a78b-42a1-b806-097d635a115e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\GameObject">
+      <UniqueIdentifier>{c15e2720-3c65-43cd-9f59-6c5211fc49cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Util">
+      <UniqueIdentifier>{de6d3e99-71a6-4454-82df-383c85fb5f73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Util">
+      <UniqueIdentifier>{b6468334-6982-4b2c-b4b5-6dab5c729b8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\Shader">
+      <UniqueIdentifier>{04c2968a-9960-4ca9-92f7-9d9856588a03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\GameObject\Scene">
+      <UniqueIdentifier>{6742a984-8218-47b8-aa5c-9672ff915210}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\GameObject\Scene">
+      <UniqueIdentifier>{1c941ece-671f-48b9-8402-2ac85aee396f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\GameObject\Character">
+      <UniqueIdentifier>{fe73e78d-ae75-4e22-beeb-c07dbd9f049d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\GameObject\Character">
+      <UniqueIdentifier>{6397680a-f950-41ed-b8b1-8fd4143d508d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\GameObject\UI">
+      <UniqueIdentifier>{652faead-cde8-4f62-a445-72a5a44e172c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\GameObject\UI">
+      <UniqueIdentifier>{29da03f1-525c-4322-851f-4e64c1d31836}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Animation">
+      <UniqueIdentifier>{741709c8-eebf-470a-9b38-142fe51c60ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Animation">
+      <UniqueIdentifier>{528986c3-0ea1-4aca-bcfb-779199bfbcdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Renderer">
+      <UniqueIdentifier>{5f8aea52-9105-4ce2-ad73-5d1467f28dd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Renderer">
+      <UniqueIdentifier>{73b7853a-0504-4109-a165-a153eca1cda6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Renderer\Shader">
+      <UniqueIdentifier>{d084358c-1760-4614-9b9e-b66199cb38b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Renderer\Shader">
+      <UniqueIdentifier>{6e41e240-cf55-455b-8be9-a45afd6f61a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\GameObject\Platform">
+      <UniqueIdentifier>{04b6381b-919f-4a41-afc9-7c4cd5221a80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\GameObject\Platform">
+      <UniqueIdentifier>{cf0f25ef-d8c5-4c23-8476-72daa7398bc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\GameObject\UI\Button">
+      <UniqueIdentifier>{3610317b-037e-4e4c-ae90-70ef046aed5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\GameObject\UI\Button">
+      <UniqueIdentifier>{6193786f-794c-4a76-948d-0702467acf71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\GameObject\ThrowingObject">
+      <UniqueIdentifier>{1d092aea-90c0-42dd-9191-2a83e2d962b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\GameObject\ThrowingObject">
+      <UniqueIdentifier>{099f1f77-a899-420a-ad76-bade6b18fc54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\GameObject\Character\AirCraft">
+      <UniqueIdentifier>{a8dd6ab5-fed4-4207-b44a-a352995c7fb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\GameObject\Character\Ship">
+      <UniqueIdentifier>{88729e46-b998-4cc8-b9ac-16d6b6beadbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\GameObject\Character\Siren">
+      <UniqueIdentifier>{9eb8eab8-2417-4634-be97-09686ba82f7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\GameObject\Character\AirCraft">
+      <UniqueIdentifier>{98c31273-a17a-470a-8da5-cd911dfd5541}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\GameObject\Character\Ship">
+      <UniqueIdentifier>{fe50c50d-ac24-4b9e-a6ee-a5471e27c1b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\GameObject\Character\Siren">
+      <UniqueIdentifier>{43a10cfe-b263-4ea2-9a83-b25005b743c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\GameObject\Buff">
+      <UniqueIdentifier>{cd5335bf-a81c-460a-b977-3a0ab5129f72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\GameObject\Buff">
+      <UniqueIdentifier>{f1a9a40d-5f4b-46c1-9ee3-d867c854bb61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Resource">
+      <UniqueIdentifier>{9143bc95-5748-44b1-9951-11e2dd0d551b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Resource">
+      <UniqueIdentifier>{675ad6b2-d094-4bbe-9e86-b763fe651b52}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>源文件\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture2D.cpp">
+      <Filter>源文件\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stb_image.cpp">
+      <Filter>源文件\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneBase.cpp">
+      <Filter>源文件\GameObject\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="ScenePlay.cpp">
+      <Filter>源文件\GameObject\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>源文件\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>源文件\GameObject\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Widget.cpp">
+      <Filter>源文件\GameObject\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="MathHelper.cpp">
+      <Filter>源文件\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>源文件\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer2D.cpp">
+      <Filter>源文件\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>源文件\Renderer\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Picture.cpp">
+      <Filter>源文件\GameObject\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMap.cpp">
+      <Filter>源文件\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="Platform.cpp">
+      <Filter>源文件\GameObject\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="PlatformStart.cpp">
+      <Filter>源文件\GameObject\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="PlatformEnd.cpp">
+      <Filter>源文件\GameObject\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="PlatformObstacle.cpp">
+      <Filter>源文件\GameObject\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="BarHp.cpp">
+      <Filter>源文件\GameObject\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Text.cpp">
+      <Filter>源文件\GameObject\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneStart.cpp">
+      <Filter>源文件\GameObject\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonExit.cpp">
+      <Filter>源文件\GameObject\UI\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonSelectCard.cpp">
+      <Filter>源文件\GameObject\UI\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonSelecting.cpp">
+      <Filter>源文件\GameObject\UI\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonStart.cpp">
+      <Filter>源文件\GameObject\UI\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonPlayStop.cpp">
+      <Filter>源文件\GameObject\UI\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonCancel.cpp">
+      <Filter>源文件\GameObject\UI\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonConfirm.cpp">
+      <Filter>源文件\GameObject\UI\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonInfo.cpp">
+      <Filter>源文件\GameObject\UI\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="glad.c">
+      <Filter>源文件\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonConfirmPlayStop.cpp">
+      <Filter>源文件\GameObject\UI\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneMaps.cpp">
+      <Filter>源文件\GameObject\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="ThrowingObject.cpp">
+      <Filter>源文件\GameObject\ThrowingObject</Filter>
+    </ClCompile>
+    <ClCompile Include="MissleNormal.cpp">
+      <Filter>源文件\GameObject\ThrowingObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Navigation.cpp">
+      <Filter>源文件\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="PlatformShort.cpp">
+      <Filter>源文件\GameObject\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="PlatformLong.cpp">
+      <Filter>源文件\GameObject\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>源文件\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Picture3D.cpp">
+      <Filter>源文件\GameObject\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="AirCraft.cpp">
+      <Filter>源文件\GameObject\Character\AirCraft</Filter>
+    </ClCompile>
+    <ClCompile Include="Ship.cpp">
+      <Filter>源文件\GameObject\Character\Ship</Filter>
+    </ClCompile>
+    <ClCompile Include="ShipAyanami.cpp">
+      <Filter>源文件\GameObject\Character\Ship</Filter>
+    </ClCompile>
+    <ClCompile Include="ShipJavelin.cpp">
+      <Filter>源文件\GameObject\Character\Ship</Filter>
+    </ClCompile>
+    <ClCompile Include="ShipLaffey.cpp">
+      <Filter>源文件\GameObject\Character\Ship</Filter>
+    </ClCompile>
+    <ClCompile Include="ShipZ23.cpp">
+      <Filter>源文件\GameObject\Character\Ship</Filter>
+    </ClCompile>
+    <ClCompile Include="Siren.cpp">
+      <Filter>源文件\GameObject\Character\Siren</Filter>
+    </ClCompile>
+    <ClCompile Include="SirenScavenger.cpp">
+      <Filter>源文件\GameObject\Character\Siren</Filter>
+    </ClCompile>
+    <ClCompile Include="SirenSmasher.cpp">
+      <Filter>源文件\GameObject\Character\Siren</Filter>
+    </ClCompile>
+    <ClCompile Include="ACFighter.cpp">
+      <Filter>源文件\GameObject\Character\AirCraft</Filter>
+    </ClCompile>
+    <ClCompile Include="Bomb.cpp">
+      <Filter>源文件\GameObject\ThrowingObject</Filter>
+    </ClCompile>
+    <ClCompile Include="BuffAirDef.cpp">
+      <Filter>源文件\GameObject\Buff</Filter>
+    </ClCompile>
+    <ClCompile Include="BuffBase.cpp">
+      <Filter>源文件\GameObject\Buff</Filter>
+    </ClCompile>
+    <ClCompile Include="BuffHeal.cpp">
+      <Filter>源文件\GameObject\Buff</Filter>
+    </ClCompile>
+    <ClCompile Include="ShipKashino.cpp">
+      <Filter>源文件\GameObject\Character\Ship</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyShip.cpp">
+      <Filter>源文件\GameObject\Character\Siren</Filter>
+    </ClCompile>
+    <ClCompile Include="EShipRepair.cpp">
+      <Filter>源文件\GameObject\Character\Siren</Filter>
+    </ClCompile>
+    <ClCompile Include="Registry.cpp">
+      <Filter>源文件\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>源文件\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneController.cpp">
+      <Filter>源文件\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="UserData.cpp">
+      <Filter>源文件\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonFormation.cpp">
+      <Filter>源文件\GameObject\UI\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonCombat.cpp">
+      <Filter>源文件\GameObject\UI\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="ContainerShip.cpp">
+      <Filter>源文件\GameObject\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="MapManager.cpp">
+      <Filter>源文件\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonBack.cpp">
+      <Filter>源文件\GameObject\UI\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonMapTitle.cpp">
+      <Filter>源文件\GameObject\UI\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonContinue.cpp">
+      <Filter>源文件\GameObject\UI\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="ShipBullin.cpp">
+      <Filter>源文件\GameObject\Character\Ship</Filter>
+    </ClCompile>
+    <ClCompile Include="ShipBullinMKII.cpp">
+      <Filter>源文件\GameObject\Character\Ship</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneLoading.cpp">
+      <Filter>源文件\GameObject\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="BarLoading.cpp">
+      <Filter>源文件\GameObject\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Torpedo.cpp">
+      <Filter>源文件\GameObject\ThrowingObject</Filter>
+    </ClCompile>
+    <ClCompile Include="MissleAP.cpp">
+      <Filter>源文件\GameObject\ThrowingObject</Filter>
+    </ClCompile>
+    <ClCompile Include="MissleHE.cpp">
+      <Filter>源文件\GameObject\ThrowingObject</Filter>
+    </ClCompile>
+    <ClCompile Include="BuffAtkImpRate.cpp">
+      <Filter>源文件\GameObject\Buff</Filter>
+    </ClCompile>
+    <ClCompile Include="BuffAirDefImpRate.cpp">
+      <Filter>源文件\GameObject\Buff</Filter>
+    </ClCompile>
+    <ClCompile Include="ACBomber.cpp">
+      <Filter>源文件\GameObject\Character\AirCraft</Filter>
+    </ClCompile>
+    <ClCompile Include="ACTorpedo.cpp">
+      <Filter>源文件\GameObject\Character\AirCraft</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonPrevChapter.cpp">
+      <Filter>源文件\GameObject\UI\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonNextChapter.cpp">
+      <Filter>源文件\GameObject\UI\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="ShipSaratoga.cpp">
+      <Filter>源文件\GameObject\Character\Ship</Filter>
+    </ClCompile>
+    <ClCompile Include="Kansen.cpp">
+      <Filter>源文件\GameObject\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="SirenConductor.cpp">
+      <Filter>源文件\GameObject\Character\Siren</Filter>
+    </ClCompile>
+    <ClCompile Include="SirenPurifier.cpp">
+      <Filter>源文件\GameObject\Character\Siren</Filter>
+    </ClCompile>
+    <ClCompile Include="BarHpBoss.cpp">
+      <Filter>源文件\GameObject\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="ShipCheshire.cpp">
+      <Filter>源文件\GameObject\Character\Ship</Filter>
+    </ClCompile>
+    <ClCompile Include="SirenLurker.cpp">
+      <Filter>源文件\GameObject\Character\Siren</Filter>
+    </ClCompile>
+    <ClCompile Include="SirenChaser.cpp">
+      <Filter>源文件\GameObject\Character\Siren</Filter>
+    </ClCompile>
+    <ClCompile Include="SirenNavigator.cpp">
+      <Filter>源文件\GameObject\Character\Siren</Filter>
+    </ClCompile>
+    <ClCompile Include="ShipNewJersey.cpp">
+      <Filter>源文件\GameObject\Character\Ship</Filter>
+    </ClCompile>
+    <ClCompile Include="ShipNagato.cpp">
+      <Filter>源文件\GameObject\Character\Ship</Filter>
+    </ClCompile>
+    <ClCompile Include="ShipHelena.cpp">
+      <Filter>源文件\GameObject\Character\Ship</Filter>
+    </ClCompile>
+    <ClCompile Include="BuffIgnited.cpp">
+      <Filter>源文件\GameObject\Buff</Filter>
+    </ClCompile>
+    <ClCompile Include="BuffLeaked.cpp">
+      <Filter>源文件\GameObject\Buff</Filter>
+    </ClCompile>
+    <ClCompile Include="BuffDamagedImpRate.cpp">
+      <Filter>源文件\GameObject\Buff</Filter>
+    </ClCompile>
+    <ClCompile Include="ShipShimakaze.cpp">
+      <Filter>源文件\GameObject\Character\Ship</Filter>
+    </ClCompile>
+    <ClCompile Include="SirenTester.cpp">
+      <Filter>源文件\GameObject\Character\Siren</Filter>
+    </ClCompile>
+    <ClCompile Include="SirenZero.cpp">
+      <Filter>源文件\GameObject\Character\Siren</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameObject.h">
+      <Filter>头文件\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture2D.h">
+      <Filter>头文件\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneBase.h">
+      <Filter>头文件\GameObject\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="ScenePlay.h">
+      <Filter>头文件\GameObject\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>头文件\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>头文件\GameObject\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Widget.h">
+      <Filter>头文件\GameObject\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="MathHelper.h">
+      <Filter>头文件\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>头文件\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer2D.h">
+      <Filter>头文件\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>头文件\Renderer\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Picture.h">
+      <Filter>头文件\GameObject\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMap.h">
+      <Filter>头文件\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Platform.h">
+      <Filter>头文件\GameObject\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="PlatformStart.h">
+      <Filter>头文件\GameObject\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="PlatformEnd.h">
+      <Filter>头文件\GameObject\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="PlatformObstacle.h">
+      <Filter>头文件\GameObject\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="BarHp.h">
+      <Filter>头文件\GameObject\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Text.h">
+      <Filter>头文件\GameObject\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugHelper.h">
+      <Filter>头文件\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneStart.h">
+      <Filter>头文件\GameObject\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonExit.h">
+      <Filter>头文件\GameObject\UI\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonSelectCard.h">
+      <Filter>头文件\GameObject\UI\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonSelecting.h">
+      <Filter>头文件\GameObject\UI\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonStart.h">
+      <Filter>头文件\GameObject\UI\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonPlayStop.h">
+      <Filter>头文件\GameObject\UI\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonCancel.h">
+      <Filter>头文件\GameObject\UI\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonConfirm.h">
+      <Filter>头文件\GameObject\UI\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonInfo.h">
+      <Filter>头文件\GameObject\UI\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonConfirmPlayStop.h">
+      <Filter>头文件\GameObject\UI\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneMaps.h">
+      <Filter>头文件\GameObject\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="ThrowingObject.h">
+      <Filter>头文件\GameObject\ThrowingObject</Filter>
+    </ClInclude>
+    <ClInclude Include="MissleNormal.h">
+      <Filter>头文件\GameObject\ThrowingObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Navigation.h">
+      <Filter>头文件\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="PlatformShort.h">
+      <Filter>头文件\GameObject\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="PlatformLong.h">
+      <Filter>头文件\GameObject\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>头文件\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Picture3D.h">
+      <Filter>头文件\GameObject\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="AirCraft.h">
+      <Filter>头文件\GameObject\Character\AirCraft</Filter>
+    </ClInclude>
+    <ClInclude Include="Ship.h">
+      <Filter>头文件\GameObject\Character\Ship</Filter>
+    </ClInclude>
+    <ClInclude Include="ShipAyanami.h">
+      <Filter>头文件\GameObject\Character\Ship</Filter>
+    </ClInclude>
+    <ClInclude Include="ShipJavelin.h">
+      <Filter>头文件\GameObject\Character\Ship</Filter>
+    </ClInclude>
+    <ClInclude Include="ShipLaffey.h">
+      <Filter>头文件\GameObject\Character\Ship</Filter>
+    </ClInclude>
+    <ClInclude Include="ShipZ23.h">
+      <Filter>头文件\GameObject\Character\Ship</Filter>
+    </ClInclude>
+    <ClInclude Include="Siren.h">
+      <Filter>头文件\GameObject\Character\Siren</Filter>
+    </ClInclude>
+    <ClInclude Include="SirenScavenger.h">
+      <Filter>头文件\GameObject\Character\Siren</Filter>
+    </ClInclude>
+    <ClInclude Include="SirenSmasher.h">
+      <Filter>头文件\GameObject\Character\Siren</Filter>
+    </ClInclude>
+    <ClInclude Include="ACFighter.h">
+      <Filter>头文件\GameObject\Character\AirCraft</Filter>
+    </ClInclude>
+    <ClInclude Include="BuffAirDef.h">
+      <Filter>头文件\GameObject\Buff</Filter>
+    </ClInclude>
+    <ClInclude Include="BuffBase.h">
+      <Filter>头文件\GameObject\Buff</Filter>
+    </ClInclude>
+    <ClInclude Include="BuffHeal.h">
+      <Filter>头文件\GameObject\Buff</Filter>
+    </ClInclude>
+    <ClInclude Include="ShipKashino.h">
+      <Filter>头文件\GameObject\Character\Ship</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyShip.h">
+      <Filter>头文件\GameObject\Character\Siren</Filter>
+    </ClInclude>
+    <ClInclude Include="EShipRepair.h">
+      <Filter>头文件\GameObject\Character\Siren</Filter>
+    </ClInclude>
+    <ClInclude Include="Registry.h">
+      <Filter>头文件\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>头文件\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneController.h">
+      <Filter>头文件\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="UserData.h">
+      <Filter>头文件\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonFormation.h">
+      <Filter>头文件\GameObject\UI\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonCombat.h">
+      <Filter>头文件\GameObject\UI\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="ContainerShip.h">
+      <Filter>头文件\GameObject\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="MapManager.h">
+      <Filter>头文件\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonBack.h">
+      <Filter>头文件\GameObject\UI\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonMapTitle.h">
+      <Filter>头文件\GameObject\UI\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonContinue.h">
+      <Filter>头文件\GameObject\UI\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="ShipBullin.h">
+      <Filter>头文件\GameObject\Character\Ship</Filter>
+    </ClInclude>
+    <ClInclude Include="ShipBullinMKII.h">
+      <Filter>头文件\GameObject\Character\Ship</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneLoading.h">
+      <Filter>头文件\GameObject\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="BarLoading.h">
+      <Filter>头文件\GameObject\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Torpedo.h">
+      <Filter>头文件\GameObject\ThrowingObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Bomb.h">
+      <Filter>头文件\GameObject\ThrowingObject</Filter>
+    </ClInclude>
+    <ClInclude Include="MissleAP.h">
+      <Filter>头文件\GameObject\ThrowingObject</Filter>
+    </ClInclude>
+    <ClInclude Include="MissleHE.h">
+      <Filter>头文件\GameObject\ThrowingObject</Filter>
+    </ClInclude>
+    <ClInclude Include="BuffAtkImpRate.h">
+      <Filter>头文件\GameObject\Buff</Filter>
+    </ClInclude>
+    <ClInclude Include="BuffAirDefImpRate.h">
+      <Filter>头文件\GameObject\Buff</Filter>
+    </ClInclude>
+    <ClInclude Include="ACBomber.h">
+      <Filter>头文件\GameObject\Character\AirCraft</Filter>
+    </ClInclude>
+    <ClInclude Include="ACTorpedo.h">
+      <Filter>头文件\GameObject\Character\AirCraft</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonPrevChapter.h">
+      <Filter>头文件\GameObject\UI\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonNextChapter.h">
+      <Filter>头文件\GameObject\UI\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="ShipSaratoga.h">
+      <Filter>头文件\GameObject\Character\Ship</Filter>
+    </ClInclude>
+    <ClInclude Include="Kansen.h">
+      <Filter>头文件\GameObject\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="SirenConductor.h">
+      <Filter>头文件\GameObject\Character\Siren</Filter>
+    </ClInclude>
+    <ClInclude Include="SirenPurifier.h">
+      <Filter>头文件\GameObject\Character\Siren</Filter>
+    </ClInclude>
+    <ClInclude Include="BarHpBoss.h">
+      <Filter>头文件\GameObject\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="ShipCheshire.h">
+      <Filter>头文件\GameObject\Character\Ship</Filter>
+    </ClInclude>
+    <ClInclude Include="SirenLurker.h">
+      <Filter>头文件\GameObject\Character\Siren</Filter>
+    </ClInclude>
+    <ClInclude Include="SirenChaser.h">
+      <Filter>头文件\GameObject\Character\Siren</Filter>
+    </ClInclude>
+    <ClInclude Include="SirenNavigator.h">
+      <Filter>头文件\GameObject\Character\Siren</Filter>
+    </ClInclude>
+    <ClInclude Include="ShipNewJersey.h">
+      <Filter>头文件\GameObject\Character\Ship</Filter>
+    </ClInclude>
+    <ClInclude Include="ShipNagato.h">
+      <Filter>头文件\GameObject\Character\Ship</Filter>
+    </ClInclude>
+    <ClInclude Include="BuffIgnited.h">
+      <Filter>头文件\GameObject\Buff</Filter>
+    </ClInclude>
+    <ClInclude Include="ShipHelena.h">
+      <Filter>头文件\GameObject\Character\Ship</Filter>
+    </ClInclude>
+    <ClInclude Include="BuffLeaked.h">
+      <Filter>头文件\GameObject\Buff</Filter>
+    </ClInclude>
+    <ClInclude Include="BuffDamagedImpRate.h">
+      <Filter>头文件\GameObject\Buff</Filter>
+    </ClInclude>
+    <ClInclude Include="ShipShimakaze.h">
+      <Filter>头文件\GameObject\Character\Ship</Filter>
+    </ClInclude>
+    <ClInclude Include="SirenTester.h">
+      <Filter>头文件\GameObject\Character\Siren</Filter>
+    </ClInclude>
+    <ClInclude Include="SirenZero.h">
+      <Filter>头文件\GameObject\Character\Siren</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shaders\Shader2D.fs">
+      <Filter>资源文件\Shader</Filter>
+    </None>
+    <None Include="Shaders\Shader2D.vs">
+      <Filter>资源文件\Shader</Filter>
+    </None>
+    <None Include="Shaders\ShaderFont.fs">
+      <Filter>资源文件\Shader</Filter>
+    </None>
+    <None Include="Shaders\ShaderMixColor.fs">
+      <Filter>资源文件\Shader</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="AzurDefense.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="favicon.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

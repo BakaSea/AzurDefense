@@ -1,0 +1,103 @@
+{
+    "row": 5,
+    "column": 9,
+    "energy": 30,
+    "hp": 20,
+    "seaType": "Normal",
+    "map": [
+        "#&.....$#",
+        "e&.....$s",
+        "#&.....$#",
+        "###$$$###",
+        "####s####"
+    ],
+    "route": [
+        [
+            { "x": 1, "y": 8 },
+            { "x": 1, "y": 7 },
+            { "x": 1, "y": 6 },
+            { "x": 1, "y": 5 },
+            { "x": 1, "y": 4 },
+            { "x": 1, "y": 3 },
+            { "x": 1, "y": 2 },
+            { "x": 1, "y": 1 },
+            { "x": 1, "y": 0 }
+        ],
+        [
+            { "x": 4, "y": 4 },
+            { "x": 3, "y": 4 },
+            { "x": 2, "y": 4 },
+            { "x": 1, "y": 4 },
+            { "x": 1, "y": 3 },
+            { "x": 1, "y": 2 },
+            { "x": 1, "y": 1 },
+            { "x": 1, "y": 0 }
+        ]
+    ],
+    "enemy": [
+        {
+            "name": "Scavenger",
+            "route": 0,
+            "time": 5
+        },
+        {
+            "name": "Scavenger",
+            "route": 0,
+            "time": 7
+        },
+        {
+            "name": "Scavenger",
+            "route": 0,
+            "time": 9
+        },
+        {
+            "name": "Lurker",
+            "route": 0,
+            "time": 11
+        },
+        {
+            "name": "Lurker",
+            "route": 0,
+            "time": 13
+        },
+        {
+            "name": "Navigator",
+            "route": 0,
+            "time": 20
+        },
+        {
+            "name": "Navigator",
+            "route": 0,
+            "time": 22
+        },
+        {
+            "name": "Conductor",
+            "route": 0,
+            "time": 25
+        },
+        {
+            "name": "Conductor",
+            "route": 0,
+            "time": 30
+        },
+        {
+            "name": "Smasher",
+            "route": 1,
+            "time": 10
+        },
+        {
+            "name": "Smasher",
+            "route": 1,
+            "time": 20
+        },
+        {
+            "name": "Smasher",
+            "route": 1,
+            "time": 20
+        }
+    ],
+    "aircraft": [
+        
+    ],
+    "reward": "Helena"
+}

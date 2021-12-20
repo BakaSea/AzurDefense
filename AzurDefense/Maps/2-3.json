@@ -1,0 +1,179 @@
+{
+    "row": 7,
+    "column": 7,
+    "energy": 30,
+    "hp": 20,
+    "seaType": "Normal",
+    "map": [
+        ".......",
+        ".#####.",
+        ".#.....",
+        "s#.e.##",
+        ".#.....",
+        ".#####.",
+        "......."
+    ],
+    "route": [
+        [
+            { "x": 3, "y": 0 },
+            { "x": 2, "y": 0 },
+            { "x": 1, "y": 0 },
+            { "x": 0, "y": 0 },
+            { "x": 0, "y": 1 },
+            { "x": 0, "y": 2 },
+            { "x": 0, "y": 3 },
+            { "x": 0, "y": 4 },
+            { "x": 0, "y": 5 },
+            { "x": 0, "y": 6 },
+            { "x": 1, "y": 6 },
+            { "x": 2, "y": 6 },
+            { "x": 2, "y": 5 },
+            { "x": 2, "y": 4 },
+            { "x": 2, "y": 3 },
+            { "x": 3, "y": 3 }
+        ],
+        [
+            { "x": 3, "y": 0 },
+            { "x": 4, "y": 0 },
+            { "x": 5, "y": 0 },
+            { "x": 6, "y": 0 },
+            { "x": 6, "y": 1 },
+            { "x": 6, "y": 2 },
+            { "x": 6, "y": 3 },
+            { "x": 6, "y": 4 },
+            { "x": 6, "y": 5 },
+            { "x": 6, "y": 6 },
+            { "x": 5, "y": 6 },
+            { "x": 4, "y": 6 },
+            { "x": 4, "y": 5 },
+            { "x": 4, "y": 4 },
+            { "x": 4, "y": 3 },
+            { "x": 3, "y": 3 }
+        ]
+    ],
+    "enemy": [
+        {
+            "name": "Scavenger",
+            "route": 0,
+            "time": 5
+        },
+        {
+            "name": "Scavenger",
+            "route": 0,
+            "time": 7
+        },
+        {
+            "name": "Chaser",
+            "route": 0,
+            "time": 9
+        },
+        {
+            "name": "Chaser",
+            "route": 0,
+            "time": 11
+        },
+        {
+            "name": "Navigator",
+            "route": 0,
+            "time": 13
+        },
+        {
+            "name": "EShipRepair",
+            "route": 0,
+            "time": 15
+        },
+        {
+            "name": "Smasher",
+            "route": 0,
+            "time": 20
+        },
+        {
+            "name": "Conductor",
+            "route": 0,
+            "time": 25
+        },
+        {
+            "name": "Conductor",
+            "route": 0,
+            "time": 30
+        },
+        {
+            "name": "Scavenger",
+            "route": 1,
+            "time": 5
+        },
+        {
+            "name": "Scavenger",
+            "route": 1,
+            "time": 7
+        },
+        {
+            "name": "Chaser",
+            "route": 1,
+            "time": 9
+        },
+        {
+            "name": "Chaser",
+            "route": 1,
+            "time": 11
+        },
+        {
+            "name": "Navigator",
+            "route": 1,
+            "time": 13
+        },
+        {
+            "name": "EShipRepair",
+            "route": 1,
+            "time": 15
+        },
+        {
+            "name": "Smasher",
+            "route": 1,
+            "time": 20
+        },
+        {
+            "name": "Conductor",
+            "route": 1,
+            "time": 25
+        },
+        {
+            "name": "Conductor",
+            "route": 1,
+            "time": 30
+        }
+    ],
+    "aircraft": [
+        {
+            "name": "AircraftBomber",
+            "time": 10,
+            "atk": 500,
+            "airDef": 0,
+            "hp": 500,
+            "bellicose": true,
+            "location": [3, 0],
+            "front": [0, 1]
+        },
+        {
+            "name": "AircraftBomber",
+            "time": 20,
+            "atk": 500,
+            "airDef": 0,
+            "hp": 500,
+            "bellicose": true,
+            "location": [3, 0],
+            "front": [0, 1]
+        },
+        {
+            "name": "AircraftBomber",
+            "time": 30,
+            "atk": 500,
+            "airDef": 0,
+            "hp": 500,
+            "bellicose": true,
+            "location": [3, 0],
+            "front": [0, 1]
+        }
+    ],
+    "reward": "Nagato"
+}

@@ -1,0 +1,100 @@
+{
+    "row": 3,
+    "column": 10,
+    "energy": 20,
+    "hp": 5,
+    "seaType": "Easy",
+    "map": [
+        "#........#",
+        "s.######.e",
+        "#........#"
+    ],
+    "route": [
+        [
+            { "x": 1, "y": 0 },
+            { "x": 1, "y": 1 },
+            { "x": 0, "y": 1 },
+            { "x": 0, "y": 2 },
+            { "x": 0, "y": 3 },
+            { "x": 0, "y": 4 },
+            { "x": 0, "y": 4 },
+            { "x": 0, "y": 5 },
+            { "x": 0, "y": 6 },
+            { "x": 0, "y": 7 },
+            { "x": 0, "y": 8 },
+            { "x": 1, "y": 8 },
+            { "x": 1, "y": 9 }
+        ],
+        [
+            { "x": 1, "y": 0 },
+            { "x": 1, "y": 1 },
+            { "x": 2, "y": 1 },
+            { "x": 2, "y": 2 },
+            { "x": 2, "y": 3 },
+            { "x": 2, "y": 4 },
+            { "x": 2, "y": 4 },
+            { "x": 2, "y": 5 },
+            { "x": 2, "y": 6 },
+            { "x": 2, "y": 7 },
+            { "x": 2, "y": 8 },
+            { "x": 1, "y": 8 },
+            { "x": 1, "y": 9 }
+        ]
+    ],
+    "enemy": [
+        {
+            "name": "Scavenger",
+            "route": 0,
+            "time": 0
+        },
+        {
+            "name": "Scavenger",
+            "route": 1,
+            "time": 1
+        },
+        {
+            "name": "Scavenger",
+            "route": 0,
+            "time": 2
+        },
+        {
+            "name": "Scavenger",
+            "route": 1,
+            "time": 3
+        },
+        {
+            "name": "Scavenger",
+            "route": 0,
+            "time": 4
+        },
+        {
+            "name": "Scavenger",
+            "route": 1,
+            "time": 5
+        },
+        {
+            "name": "Scavenger",
+            "route": 0,
+            "time": 6
+        },
+        {
+            "name": "Scavenger",
+            "route": 1,
+            "time": 7
+        },
+        {
+            "name": "Scavenger",
+            "route": 0,
+            "time": 8
+        },
+        {
+            "name": "Scavenger",
+            "route": 1,
+            "time": 9
+        }
+    ],
+    "aircraft": [
+
+    ],
+    "reward": "Kashino"
+}

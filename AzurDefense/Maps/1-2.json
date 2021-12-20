@@ -1,0 +1,119 @@
+{
+    "row": 7,
+    "column": 7,
+    "energy": 20,
+    "hp": 10,
+    "seaType": "Easy",
+    "map": [
+        "s##$..s",
+        "..#...#",
+        "...&.##",
+        "$.&e&.$",
+        "##.&...",
+        "#...#..",
+        "s..$##s"
+    ],
+    "route": [
+        [
+            { "x": 0, "y": 0 },
+            { "x": 1, "y": 0 },
+            { "x": 2, "y": 0 },
+            { "x": 3, "y": 0 },
+            { "x": 3, "y": 1 },
+            { "x": 3, "y": 2 },
+            { "x": 3, "y": 3 }
+        ],
+        [
+            { "x": 6, "y": 0 },
+            { "x": 6, "y": 1 },
+            { "x": 6, "y": 2 },
+            { "x": 6, "y": 3 },
+            { "x": 5, "y": 3 },
+            { "x": 4, "y": 3 },
+            { "x": 3, "y": 3 }
+        ],
+        [
+            { "x": 6, "y": 6 },
+            { "x": 5, "y": 6 },
+            { "x": 4, "y": 6 },
+            { "x": 3, "y": 6 },
+            { "x": 3, "y": 5 },
+            { "x": 3, "y": 4 },
+            { "x": 3, "y": 3 }
+        ],
+        [
+            { "x": 0, "y": 6 },
+            { "x": 0, "y": 5 },
+            { "x": 0, "y": 4 },
+            { "x": 0, "y": 3 },
+            { "x": 1, "y": 3 },
+            { "x": 2, "y": 3 },
+            { "x": 3, "y": 3 }
+        ]
+    ],
+    "enemy": [
+        {
+            "name": "Scavenger",
+            "route": 0,
+            "time": 8
+        },
+        {
+            "name": "Scavenger",
+            "route": 1,
+            "time": 8
+        },
+        {
+            "name": "Scavenger",
+            "route": 2,
+            "time": 8
+        },
+        {
+            "name": "Scavenger",
+            "route": 3,
+            "time": 8
+        },
+        {
+            "name": "Scavenger",
+            "route": 0,
+            "time": 10
+        },
+        {
+            "name": "Scavenger",
+            "route": 1,
+            "time": 10
+        },
+        {
+            "name": "Scavenger",
+            "route": 2,
+            "time": 10
+        },
+        {
+            "name": "Scavenger",
+            "route": 3,
+            "time": 10
+        }
+    ],
+    "aircraft": [
+        {
+            "name": "AircraftFighter",
+            "time": 12,
+            "atk": 200,
+            "airDef": 100,
+            "hp": 350,
+            "bellicose": true,
+            "location": [6, 0],
+            "front": [0 , 1]
+        },
+        {
+            "name": "AircraftFighter",
+            "time": 12,
+            "atk": 200,
+            "airDef": 100,
+            "hp": 350,
+            "bellicose": true,
+            "location": [0, 6],
+            "front": [0 , -1]
+        }
+    ],
+    "reward": "BullinMKII"
+}

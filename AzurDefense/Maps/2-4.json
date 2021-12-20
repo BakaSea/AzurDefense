@@ -1,0 +1,217 @@
+{
+    "row": 5,
+    "column": 10,
+    "energy": 30,
+    "hp": 20,
+    "seaType": "Normal",
+    "map": [
+        "#..####..#",
+        "e..#&&#..s",
+        "##..$$...s",
+        "e..#&&#..s",
+        "#..####..#"
+    ],
+    "route": [
+        [
+            { "x": 1, "y": 9 },
+            { "x": 1, "y": 8 },
+            { "x": 1, "y": 7 },
+            { "x": 2, "y": 7 },
+            { "x": 2, "y": 6 },
+            { "x": 2, "y": 5 },
+            { "x": 2, "y": 4 },
+            { "x": 2, "y": 3 },
+            { "x": 2, "y": 2 },
+            { "x": 1, "y": 2 },
+            { "x": 1, "y": 1 },
+            { "x": 1, "y": 0 }
+        ],
+        [
+            { "x": 3, "y": 9 },
+            { "x": 3, "y": 8 },
+            { "x": 3, "y": 7 },
+            { "x": 2, "y": 7 },
+            { "x": 2, "y": 6 },
+            { "x": 2, "y": 5 },
+            { "x": 2, "y": 4 },
+            { "x": 2, "y": 3 },
+            { "x": 2, "y": 2 },
+            { "x": 3, "y": 2 },
+            { "x": 3, "y": 1 },
+            { "x": 3, "y": 0 }
+        ],
+        [
+            { "x": 2, "y": 9 },
+            { "x": 2, "y": 8 },
+            { "x": 2, "y": 7 },
+            { "x": 2, "y": 6 },
+            { "x": 2, "y": 5 },
+            { "x": 2, "y": 4 },
+            { "x": 2, "y": 3 },
+            { "x": 2, "y": 2 },
+            { "x": 3, "y": 2 },
+            { "x": 3, "y": 1 },
+            { "x": 3, "y": 0 }
+        ]
+    ],
+    "enemy": [
+        {
+            "name": "Scavenger",
+            "route": 0,
+            "time": 5
+        },
+        {
+            "name": "Scavenger",
+            "route": 0,
+            "time": 7
+        },
+        {
+            "name": "Chaser",
+            "route": 0,
+            "time": 9
+        },
+        {
+            "name": "Chaser",
+            "route": 0,
+            "time": 11
+        },
+        {
+            "name": "Navigator",
+            "route": 0,
+            "time": 13
+        },
+        {
+            "name": "EShipRepair",
+            "route": 0,
+            "time": 15
+        },
+        {
+            "name": "Smasher",
+            "route": 0,
+            "time": 20
+        },
+        {
+            "name": "Conductor",
+            "route": 0,
+            "time": 25
+        },
+        {
+            "name": "Conductor",
+            "route": 0,
+            "time": 30
+        },
+        {
+            "name": "Scavenger",
+            "route": 1,
+            "time": 5
+        },
+        {
+            "name": "Scavenger",
+            "route": 1,
+            "time": 7
+        },
+        {
+            "name": "Chaser",
+            "route": 1,
+            "time": 9
+        },
+        {
+            "name": "Chaser",
+            "route": 1,
+            "time": 11
+        },
+        {
+            "name": "Navigator",
+            "route": 1,
+            "time": 13
+        },
+        {
+            "name": "EShipRepair",
+            "route": 1,
+            "time": 15
+        },
+        {
+            "name": "Smasher",
+            "route": 1,
+            "time": 20
+        },
+        {
+            "name": "Conductor",
+            "route": 1,
+            "time": 25
+        },
+        {
+            "name": "Conductor",
+            "route": 1,
+            "time": 30
+        },
+        {
+            "name": "Tester",
+            "route": 2,
+            "time": 45
+        }
+    ],
+    "aircraft": [
+        {
+            "name": "AircraftFighter",
+            "time": 10,
+            "atk": 200,
+            "airDef": 300,
+            "hp": 500,
+            "bellicose": false,
+            "location": [1, 9],
+            "front": [0, -1]
+        },
+        {
+            "name": "AircraftBomber",
+            "time": 20,
+            "atk": 1000,
+            "airDef": 0,
+            "hp": 300,
+            "bellicose": false,
+            "location": [1, 9],
+            "front": [0, -1]
+        },
+        {
+            "name": "AircraftTorpedo",
+            "time": 30,
+            "atk": 800,
+            "airDef": 0,
+            "hp": 400,
+            "bellicose": false,
+            "location": [1, 9],
+            "front": [0, -1]
+        },
+        {
+            "name": "AircraftFighter",
+            "time": 10,
+            "atk": 200,
+            "airDef": 300,
+            "hp": 500,
+            "bellicose": false,
+            "location": [3, 9],
+            "front": [0, -1]
+        },
+        {
+            "name": "AircraftBomber",
+            "time": 20,
+            "atk": 1000,
+            "airDef": 0,
+            "hp": 300,
+            "bellicose": false,
+            "location": [3, 9],
+            "front": [0, -1]
+        },
+        {
+            "name": "AircraftTorpedo",
+            "time": 30,
+            "atk": 800,
+            "airDef": 0,
+            "hp": 400,
+            "bellicose": false,
+            "location": [3, 9],
+            "front": [0, -1]
+        }
+    ],
+    "reward": ""
+}

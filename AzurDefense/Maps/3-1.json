@@ -1,0 +1,173 @@
+{
+    "row": 5,
+    "column": 9,
+    "energy": 80,
+    "hp": 20,
+    "seaType": "Hard",
+    "map": [
+        "##......s",
+        "##..#####",
+        "e.......s",
+        "######..#",
+        "s.......#"
+    ],
+    "route": [
+        [
+            { "x": 0, "y": 8 },
+            { "x": 0, "y": 7 },
+            { "x": 0, "y": 6 },
+            { "x": 0, "y": 5 },
+            { "x": 0, "y": 4 },
+            { "x": 0, "y": 3 },
+            { "x": 0, "y": 2 },
+            { "x": 1, "y": 2 },
+            { "x": 2, "y": 2 },
+            { "x": 2, "y": 1 },
+            { "x": 2, "y": 0 }
+        ],
+        [
+            { "x": 2, "y": 8 },
+            { "x": 2, "y": 7 },
+            { "x": 2, "y": 6 },
+            { "x": 2, "y": 5 },
+            { "x": 2, "y": 4 },
+            { "x": 2, "y": 3 },
+            { "x": 2, "y": 2 },
+            { "x": 2, "y": 1 },
+            { "x": 2, "y": 0 }
+        ],
+        [
+            { "x": 4, "y": 0 },
+            { "x": 4, "y": 1 },
+            { "x": 4, "y": 2 },
+            { "x": 4, "y": 3 },
+            { "x": 4, "y": 4 },
+            { "x": 4, "y": 5 },
+            { "x": 4, "y": 6 },
+            { "x": 3, "y": 6 },
+            { "x": 2, "y": 6 },
+            { "x": 2, "y": 5 },
+            { "x": 2, "y": 4 },
+            { "x": 2, "y": 3 },
+            { "x": 2, "y": 2 },
+            { "x": 2, "y": 1 },
+            { "x": 2, "y": 0 }
+        ]
+    ],
+    "enemy": [
+        {
+            "name": "Scavenger",
+            "route": 1,
+            "time": 5
+        },
+        {
+            "name": "Scavenger",
+            "route": 1,
+            "time": 10
+        },
+        {
+            "name": "Lurker",
+            "route": 1,
+            "time": 15
+        },
+        {
+            "name": "Chaser",
+            "route": 1,
+            "time": 20
+        },
+        {
+            "name": "Navigator",
+            "route": 1,
+            "time": 25
+        },
+        {
+            "name": "Lurker",
+            "route": 1,
+            "time": 30
+        },
+        {
+            "name": "Lurker",
+            "route": 1,
+            "time": 35
+        },
+        {
+            "name": "Navigator",
+            "route": 1,
+            "time": 40
+        }, 
+        {
+            "name": "Chaser",
+            "route": 1,
+            "time": 45
+        },
+        {
+            "name": "Conductor",
+            "route": 1,
+            "time": 55
+        },
+        {
+            "name": "Conductor",
+            "route": 1,
+            "time": 65
+        },
+        {
+            "name": "Conductor",
+            "route": 1,
+            "time": 75
+        },
+        {
+            "name": "Smasher",
+            "route": 0,
+            "time": 10
+        },
+        {
+            "name": "Smasher",
+            "route": 0,
+            "time": 20
+        },
+        {
+            "name": "Smasher",
+            "route": 0,
+            "time": 30
+        },
+        {
+            "name": "Smasher",
+            "route": 0,
+            "time": 40
+        },
+        {
+            "name": "Smasher",
+            "route": 0,
+            "time": 50
+        },
+        {
+            "name": "Smasher",
+            "route": 2,
+            "time": 10
+        },
+        {
+            "name": "Smasher",
+            "route": 2,
+            "time": 20
+        },
+        {
+            "name": "Smasher",
+            "route": 2,
+            "time": 30
+        },
+        {
+            "name": "Smasher",
+            "route": 2,
+            "time": 40
+        },
+        {
+            "name": "Smasher",
+            "route": 2,
+            "time": 50
+        }
+    ],
+    "aircraft": [
+
+    ],
+    "reward": "Shimakaze"
+}

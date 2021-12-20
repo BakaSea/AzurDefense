@@ -1,0 +1,201 @@
+{
+    "row": 5,
+    "column": 10,
+    "energy": 30,
+    "hp": 10,
+    "seaType": "Easy",
+    "map": [
+        "e####.$$$s",
+        ".####.####",
+        "&.....$$$s",
+        ".####.####",
+        "e####.$$$s"
+    ],
+    "route": [
+        [
+            { "x": 0, "y": 9 },
+            { "x": 0, "y": 8 },
+            { "x": 0, "y": 7 },
+            { "x": 0, "y": 6 },
+            { "x": 0, "y": 5 },
+            { "x": 1, "y": 5 },
+            { "x": 2, "y": 5 },
+            { "x": 2, "y": 4 },
+            { "x": 2, "y": 3 },
+            { "x": 2, "y": 2 },
+            { "x": 2, "y": 1 },
+            { "x": 2, "y": 0 },
+            { "x": 1, "y": 0 },
+            { "x": 0, "y": 0 }
+        ],
+        [
+            { "x": 4, "y": 9 },
+            { "x": 4, "y": 8 },
+            { "x": 4, "y": 7 },
+            { "x": 4, "y": 6 },
+            { "x": 4, "y": 5 },
+            { "x": 3, "y": 5 },
+            { "x": 2, "y": 5 },
+            { "x": 2, "y": 4 },
+            { "x": 2, "y": 3 },
+            { "x": 2, "y": 2 },
+            { "x": 2, "y": 1 },
+            { "x": 2, "y": 0 },
+            { "x": 3, "y": 0 },
+            { "x": 4, "y": 0 }
+        ],
+        [
+            { "x": 2, "y": 9 },
+            { "x": 2, "y": 8 },
+            { "x": 2, "y": 7 },
+            { "x": 2, "y": 6 },
+            { "x": 2, "y": 5 },
+            { "x": 2, "y": 4 },
+            { "x": 2, "y": 3 },
+            { "x": 2, "y": 2 },
+            { "x": 2, "y": 1 },
+            { "x": 2, "y": 0 },
+            { "x": 3, "y": 0 },
+            { "x": 4, "y": 0 }
+        ],
+        [
+            { "x": 2, "y": 9 },
+            { "x": 2, "y": 8 },
+            { "x": 2, "y": 7 },
+            { "x": 2, "y": 6 },
+            { "x": 2, "y": 5 },
+            { "x": 2, "y": 4 },
+            { "x": 2, "y": 3 },
+            { "x": 2, "y": 2 },
+            { "x": 2, "y": 1 },
+            { "x": 2, "y": 0 },
+            { "x": 1, "y": 0 },
+            { "x": 0, "y": 0 }
+        ]
+    ],
+    "enemy": [
+        {
+            "name": "Scavenger",
+            "route": 0,
+            "time": 8
+        },
+        {
+            "name": "EShipRepair",
+            "route": 0,
+            "time": 10
+        },
+        {
+            "name": "Scavenger",
+            "route": 0,
+            "time": 15
+        },
+        {
+            "name": "EShipRepair",
+            "route": 0,
+            "time": 17
+        },
+        {
+            "name": "Scavenger",
+            "route": 0,
+            "time": 20
+        },
+        {
+            "name": "Scavenger",
+            "route": 1,
+            "time": 8
+        },
+        {
+            "name": "EShipRepair",
+            "route": 1,
+            "time": 10
+        },
+        {
+            "name": "Scavenger",
+            "route": 1,
+            "time": 15
+        },
+        {
+            "name": "EShipRepair",
+            "route": 1,
+            "time": 17
+        },
+        {
+            "name": "Scavenger",
+            "route": 1,
+            "time": 20
+        },
+        {
+            "name": "Scavenger",
+            "route": 2,
+            "time": 13
+        },
+        {
+            "name": "Scavenger",
+            "route": 2,
+            "time": 17
+        },
+        {
+            "name": "Scavenger",
+            "route": 2,
+            "time": 21
+        },
+        {
+            "name": "Scavenger",
+            "route": 3,
+            "time": 15
+        },
+        {
+            "name": "Scavenger",
+            "route": 3,
+            "time": 19
+        },
+        {
+            "name": "Scavenger",
+            "route": 3,
+            "time": 23
+        }
+    ],
+    "aircraft": [
+        {
+            "name": "AircraftFighter",
+            "time": 10,
+            "atk": 100,
+            "airDef": 100,
+            "hp": 400,
+            "bellicose": false,
+            "location": [0, 9],
+            "front": [0, -1]
+        },
+        {
+            "name": "AircraftFighter",
+            "time": 20,
+            "atk": 200,
+            "airDef": 100,
+            "hp": 200,
+            "bellicose": false,
+            "location": [0, 9],
+            "front": [0, -1]
+        },
+        {
+            "name": "AircraftFighter",
+            "time": 10,
+            "atk": 100,
+            "airDef": 100,
+            "hp": 400,
+            "bellicose": true,
+            "location": [4, 9],
+            "front": [0, -1]
+        },
+        {
+            "name": "AircraftFighter",
+            "time": 20,
+            "atk": 200,
+            "airDef": 100,
+            "hp": 200,
+            "bellicose": true,
+            "location": [4, 9],
+            "front": [0, -1]
+        }
+    ],
+    "reward": ""
+}
